@@ -9,7 +9,7 @@ package ru.job4j.calculate;
  
  /**
  *Main - метод для вывода на консоль Not Hello World.
- *@ arg - arg.
+ *@param args - arg.
  */
  
 public class Calculate {
