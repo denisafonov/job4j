@@ -26,10 +26,10 @@ public class ConverterTest {
      */
 
     @Test
-    public void when1DollarToRubleThen60() {
+    public void when60DollarToRubleThen1() {
         Converter converter = new Converter();
-        int result = converter.dollarToRuble(1);
-        assertThat(result, is(60));
+        int result = converter.dollarToRuble(60);
+        assertThat(result, is(120));
     }
 
     /**
@@ -48,9 +48,9 @@ public class ConverterTest {
      */
 
     @Test
-    public void when1EuroToRubleThen70() {
+    public void when70EuroToRubleThen1() {
         Converter converter = new Converter();
-        int result = converter.euroToRuble(1);
-        assertThat(result, is(70));
+        int result = converter.euroToRuble(70);
+        assertThat(result, is(140));
     }
 }
